@@ -20,9 +20,9 @@ const headerHTML = `
                   <img src="menu.png" style="float: right;">
                 </div>
                 <div class="dropdown-content">
-                  <a href="#">History</a>
-                  <a href="#">Nature</a>
-                  <a href="#">Gallery</a>
+                  <a href="/history">History</a>
+                  <a href="/nature">Nature</a>
+                  <a href="/gallery">Gallery</a>
                 </div>
               </div>
             </div>
