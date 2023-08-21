@@ -307,10 +307,10 @@ th {
 
 
 blockquote{
-  font-size: 13px;
-  width: 80%;
+  width: 100%;
   font-style: italic;
   padding: 4px 8px 4px 24px;
+  margin: 0px 0px 0px 24px;
   border-left: 4px solid #6aad0e ;
   line-height: 1.6;
   position: relative;
