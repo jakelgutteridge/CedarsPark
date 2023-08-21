@@ -249,7 +249,7 @@ th {
 }
 */
 blockquote{
-  width: 100%;
+  width: 1076px;
   font-style: italic;
   padding: 4px 8px 4px 24px;
   margin: 0px 0px 0px 24px;
@@ -259,7 +259,6 @@ blockquote{
 }
 blockquote span{
   display: block;
-  color: #333333;
   font-style: normal;
   font-weight: bold;
   margin-top: 1em;
