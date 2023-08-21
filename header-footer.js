@@ -49,6 +49,7 @@ const headerlineHTML = `
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
+            <p>&nbsp;</p>
           </td>
         </tr>
       </table>
