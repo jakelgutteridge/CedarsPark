@@ -249,7 +249,8 @@ th {
 }
 */
 blockquote{
-  width: 902px;
+  width: 100%;
+  max-width: 902px;
   font-style: italic;
   padding: 4px 8px 4px 24px;
   margin: 0px 0px 0px 24px;
