@@ -7,7 +7,7 @@ const headerlineDiv = document.getElementById('headerline');
 const headerHTML = `
   <header>
     <center>
-    <span style="line-height: 1;">
+    <span style="line-height: 1; background-image: url("/headerbg.png");">
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
@@ -49,7 +49,7 @@ const headerlineHTML = `
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
-            <p>&nbsp;</p>
+            <span style="font-size: 1px;">&nbsp;</span>
           </td>
         </tr>
       </table>
