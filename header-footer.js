@@ -1,14 +1,13 @@
 // Get references to the header and footer divs
 const headerDiv = document.getElementById('header');
 const footerDiv = document.getElementById('footer');
-const headerlineDiv = document.getElementById('headerline');
 
 // Define the injected HTML content for header and footer
 const headerHTML = `
   <header>
     <center>
     <span style="line-height: 1;">
-      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px; background-image: url("/headerbg.png");">
+      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
             <a href="https://www.cedarspark.info" style="color: #FFFFFF;">
@@ -30,26 +29,6 @@ const headerHTML = `
                 </div>
               </div>
             </div>
-          </td>
-        </tr>
-      </table>
-      </span>
-    </center>
-  </header>
-`;
-
-
-
-
-
-const headerlineHTML = `
-    <header>
-    <center>
-    <span style="line-height: 0.5;">
-      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px; background-image: url("/headerbgline.png"); background-repeat: no-repeat; background-size: 100% 100%;">
-        <tr>
-          <td>
-            <span style="font-size: 1px;">&nbsp;</span>
           </td>
         </tr>
       </table>
@@ -82,4 +61,3 @@ const footerHTML = `
 // Inject the HTML content into the header and footer divs
 headerDiv.innerHTML = headerHTML;
 footerDiv.innerHTML = footerHTML;
-headerlineDiv.innerHTML = headerlineHTML;
