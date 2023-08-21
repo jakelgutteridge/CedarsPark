@@ -309,7 +309,7 @@ th {
 
 
 blockquote {
-   width: 60%;
+   width: 100%;
    margin: 0 auto;
 }
 blockquote h1 {
@@ -325,7 +325,6 @@ blockquote p::after {
    content: "“";
    font-family: Georgia;
    font-size: 8rem;
-   margin: -3rem 0 0 -4rem;
    position: absolute;
    opacity: 0.5;
 }
