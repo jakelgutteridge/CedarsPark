@@ -1,12 +1,12 @@
 // Get references to the header and footer divs
 const headerDiv = document.getElementById('header');
 const footerDiv = document.getElementById('footer');
-
 // Define the injected HTML content for header and footer
 const headerHTML = `
   <header>
     <center>
     <span style="line-height: 1;">
+    <span style="line-height: 1.2;">
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
@@ -36,9 +36,6 @@ const headerHTML = `
     </center>
   </header>
 `;
-
-
-
 const footerHTML = `
   <footer>
     <center>
@@ -57,7 +54,6 @@ const footerHTML = `
     </center>
   </footer>
 `;
-
 // Inject the HTML content into the header and footer divs
 headerDiv.innerHTML = headerHTML;
 footerDiv.innerHTML = footerHTML;
