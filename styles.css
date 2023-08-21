@@ -96,7 +96,10 @@ form {
 }
 /* Footer styles */
 footer {
-  background-color: #595959;
+  background-image: url('headerfooterbg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transform: scaleY(-1);
   color: #ffffff;
   padding: 14px;
 }
