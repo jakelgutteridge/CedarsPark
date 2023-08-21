@@ -225,7 +225,7 @@ hr {
   font-family: Optima;
   /* Adjusted positioning */
   bottom: -0%; /* Move the dropdown content up by its height */
-  left: -230%;
+  left: -250%;
   transform-origin: bottom left; /* Set the origin for transform */
   transform: translate(0, 100%); /* Translate the content down */
 }
