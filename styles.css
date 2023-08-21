@@ -173,6 +173,13 @@ hr {
   width: 160px; height: 160px;
 }
 
+.gallery {
+  width: 100%;
+  padding: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .image-table-right, .image-table-left {
