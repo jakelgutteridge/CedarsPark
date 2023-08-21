@@ -31,10 +31,6 @@ const headerHTML = `
             </div>
           </td>
         </tr>
-        <tr>
-          <td style="background-image: url('/headerbg.png')">
-          </td>
-        </tr>
       </table>
       </span>
     </center>
