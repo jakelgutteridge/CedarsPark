@@ -2,7 +2,6 @@
   font-family: Optima;
   src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
 }
-
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
@@ -13,16 +12,12 @@ body {
   color: #333;
   line-height: 1.5;
 }
-
 /* Header styles */
 header {
-  background-image: url("/headerbg.png")
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: #595959;
   color: #ffffff;
   padding: 5px;
 }
-
 h1 {
     font-size: 23px;
     padding: 8px 0px 12px 0px;
@@ -30,25 +25,20 @@ h1 {
     font-weight: normal;
     text-transform: uppercase;
 }
-
 h2 {
   font-size: 16px;
   padding: 10px 0px 10px 0px;
   color: #6aad0e;
 }
-
 li {
     margin-bottom: 14px;
   }
-
 .menu {margin-top: 35px;}
-
 .menu li {
   font-size: 20px;
   font-family: Linux Biolinum;
   margin-bottom: 1em;
   }
-
 /* Main content styles */
 main {
   padding: 20px;
@@ -56,21 +46,17 @@ main {
   max-width: 950px;
   margin: auto;
 }
-
 /* Links styles */
 a {
   color: #1e60c9;
   text-decoration: none;
 }
-
 a:hover, a:focus {
   text-decoration: underline;
 }
-
 a:visited {
   color: #c200c2;
 }
-
 /* Buttons styles */
 .button {
   display: inline-block;
@@ -83,19 +69,15 @@ a:visited {
   font-size: 13px;
   font-weight: bold;
 }
-
 .button-text {
     padding: 0px 8px;
 }
-
 .button:hover {
   text-decoration: none;
 }
-
 .button a:hover {
     text-decoration: none;
 }
-
 /* Input styles */
 input[type="text"],
 input[type="email"],
@@ -106,47 +88,38 @@ textarea {
   width: 100%;
   box-sizing: border-box;
 }
-
 /* Form styles */
 form {
   margin-bottom: 20px;
 }
-
 /* Footer styles */
 footer {
   background-color: #595959;
   color: #ffffff;
   padding: 14px;
-
 }
-
 /* Additional styles specific to your page structure */
 /* Add your own styles here */
-
 .image-container {
   position: relative;
   display: inline-block; /* or use "block" if you want it to take the full width of its container */
   text-align: center; /* Center the caption horizontally */
 }
-
 img {
   display: block;
 }
-
 .caption-container {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
 }
-
 .caption {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.7);
   color: #ffffff;
   padding: 7px;
 }
-
 hr {
   border-top: 1px solid #c9c9c9;
   border-bottom: 0;
@@ -155,7 +128,6 @@ hr {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-
 .dotted {
   border-top: 1px dotted #c9c9c9;
   border-bottom: 0;
@@ -164,23 +136,14 @@ hr {
   margin-top: 30px;
   margin-bottom: 20px;
 }
-
-
-
-
-
-
 .image-table-right {
   float: right;
   margin-left: 16px;
 }
-
 .image-table-left {
   float: left;
   margin-right: 16px;
 }
-
-
 /* Mobile styles */
 @media (max-width: 767px) {
   .image-table-right, .image-table-left {
@@ -188,34 +151,21 @@ hr {
     margin: 0 auto;
   }
 }
-
 /*
 .breadcrumb a {
     color: #ffffff;
 }
-
 .breadcrumb a.current {
     font-weight: bold;
 }
 */
-
-
-
-
-
-
-
-
-
 .dropbtn {
   float: right;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -227,40 +177,25 @@ hr {
   font-family: Optima;
   /* Adjusted positioning */
   bottom: -0%; /* Move the dropdown content up by its height */
+  left: -275%;
   left: -272%;
   transform-origin: bottom left; /* Set the origin for transform */
   transform: translate(0, 100%); /* Translate the content down */
 }
-
 .dropdown-content a {
   color: #000000;
   padding: 10px 14px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {text-decoration: underline; color: #ffffff;}
-
 .dropdown:hover .dropdown-content {display: block;}
-
 .dropdown:hover .dropbtn {background-image: linear-gradient(#595959, #e6e6e6);}
-
-
-
-
-
-
-
-
-
-
-
 /* Apply styles to the 'timeline' table */
 table.table {
     border-collapse: collapse; /* Collapse the borders to avoid double borders */
     width: 100%; /* Make the table take up the full width of its container */
 }
-
 /* Apply styles to 'date' cells */
 td.date {
     border: 1px solid #ccc; /* Set the border to 1px solid grey */
@@ -268,14 +203,12 @@ td.date {
     text-align: center; /* Center-align text in 'date' cells */
     width: 125px;
 }
-
 /* Apply styles to 'event' cells */
 td.event {
     border: 1px solid #ccc; /* Set the border to 1px solid grey */
     padding: 8px; /* Add some padding to the cells */
     text-align: left; /* Align text to the left in 'event' cells */
 }
-
 /* Apply styles to table header cells */
 th {
     background-color: #f2f2f2; /* Add a light background color to header cells */
@@ -283,17 +216,12 @@ th {
     padding: 8px; /* Add some padding to the cells */
     text-align: left; /* Align text to the left in header cells */
 }
-
-
-
 /*
-
 .video {
   position: relative;
   text-align: center;
   color: white;
 }
-
 .play {
   position: absolute;
   top: 50%;
@@ -302,12 +230,7 @@ th {
   color: #ffffff;
   font-size: 22px;
 }
-
 */
-
-
-
-
 blockquote{
   width: 100%;
   font-style: italic;
@@ -317,7 +240,6 @@ blockquote{
   line-height: 1.6;
   position: relative;
 }
-
 blockquote span{
   display: block;
   color: #333333;
@@ -325,5 +247,3 @@ blockquote span{
   font-weight: bold;
   margin-top: 1em;
 }
-
-
