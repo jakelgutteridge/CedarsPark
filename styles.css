@@ -306,3 +306,24 @@ th {
 
 
 
+blockquote{
+  font-size: 14px;
+  width:60%;
+  margin:50px auto;
+  font-family: Arial;
+  font-style:italic;
+  padding:8px 8px 8px 24px;
+  border-left:4px solid #6aad0e ;
+  line-height:1.6;
+  position: relative;
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
+
