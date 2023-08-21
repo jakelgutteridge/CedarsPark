@@ -14,7 +14,9 @@ body {
 }
 /* Header styles */
 header {
-  background-color: #595959;
+  background-image: url('headerbg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   color: #ffffff;
   padding: 5px;
 }
