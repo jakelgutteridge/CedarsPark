@@ -35,7 +35,7 @@ const headerHTML = `
       </span>
     </center>
   </header>
-  <br>
+  <br style="line-height: 0.5;">
     <header>
     <center>
     <span style="line-height: 0.5; background-image: url("/headerbgline.png"); background-repeat: no-repeat; background-size: 100% 100%;">
