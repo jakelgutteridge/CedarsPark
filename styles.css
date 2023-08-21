@@ -16,7 +16,6 @@ body {
 
 /* Header styles */
 header {
-  background-image: url("/headerbg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #ffffff;
