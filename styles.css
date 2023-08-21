@@ -16,10 +16,12 @@ body {
 
 /* Header styles */
 header {
-  background-color: #595959;
+  background-image: url("/headerbg.png");
   color: #ffffff;
   padding: 5px;
 }
+
+/* background-color: #595959; */
 
 h1 {
     font-size: 23px;
