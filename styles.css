@@ -163,6 +163,7 @@ hr {
 }
 
 .image-table-gallery {
+  float: left;
   margin: 8px;
 }
 
@@ -243,16 +244,6 @@ th {
 
 
 
-
-/*
-table.gallery {
-    border-collapse: collapse; /* Collapse the borders to avoid double borders */
-    width: 100%; /* Make the table take up the full width of its container */
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    padding: 5px;
-}
-*/
 
 
 
