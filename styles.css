@@ -308,21 +308,20 @@ th {
 
 blockquote{
   font-size: 13px;
-  width:80%;
-  font-family: Arial;
-  font-style:italic;
-  padding:4px 8px 4px 24px;
-  border-left:4px solid #6aad0e ;
-  line-height:1.6;
+  width: 80%;
+  font-style: italic;
+  padding: 4px 8px 4px 24px;
+  border-left: 4px solid #6aad0e ;
+  line-height: 1.6;
   position: relative;
 }
 
 blockquote span{
-  display:block;
-  color:#333333;
+  display: block;
+  color: #333333;
   font-style: normal;
   font-weight: bold;
-  margin-top:1em;
+  margin-top: 1em;
 }
 
 
