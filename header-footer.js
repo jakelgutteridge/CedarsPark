@@ -1,7 +1,6 @@
 // Get references to the header and footer divs
 const headerDiv = document.getElementById('header');
 const footerDiv = document.getElementById('footer');
-const headerfooterlineDiv = document.getElementById('headerfooterline');
 
 // Define the injected HTML content for header and footer
 const headerHTML = `
@@ -38,19 +37,6 @@ const headerHTML = `
   </header>
 `;
 
-const headerfooterlineHTML = `
-  <header>
-    <center>
-      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
-        <tr>
-          <td style="background-image: url('headerfooterline.png'); background-size: 100% 100%; background-repeat: no-repeat;"></td>
-        </tr>
-      </table>
-      </span>
-    </center>
-  </header>
-`;
-
 const footerHTML = `
   <footer>
     <center>
@@ -73,4 +59,3 @@ const footerHTML = `
 // Inject the HTML content into the header and footer divs
 headerDiv.innerHTML = headerHTML;
 footerDiv.innerHTML = footerHTML;
-headerfooterlineDiv.innerHTML = headerfooterlineHTML;
