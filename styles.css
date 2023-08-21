@@ -167,6 +167,12 @@ hr {
   margin: 5px;
 }
 
+.image-gallery {
+  object-fit: cover;
+  object-position: top;
+  width: 160px; height: 160px;
+}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .image-table-right, .image-table-left {
