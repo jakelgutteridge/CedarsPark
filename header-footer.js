@@ -35,6 +35,19 @@ const headerHTML = `
       </span>
     </center>
   </header>
+  
+    <header>
+    <center>
+    <span style="line-height: 1.2; background-image: url("/headerbgline.png"); background-repeat: no-repeat; background-size: 100% 100%;">
+      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
+        <tr>
+          <td>
+          </td>
+        </tr>
+      </table>
+      </span>
+    </center>
+  </header>
 `;
 
 const footerHTML = `
