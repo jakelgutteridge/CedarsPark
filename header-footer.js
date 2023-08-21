@@ -6,6 +6,7 @@ const footerDiv = document.getElementById('footer');
 const headerHTML = `
   <header>
     <center>
+    <span style="line-height: 1;">
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
@@ -31,6 +32,7 @@ const headerHTML = `
           </td>
         </tr>
       </table>
+      </span>
     </center>
   </header>
 `;
