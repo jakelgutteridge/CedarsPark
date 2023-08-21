@@ -23,6 +23,8 @@ const headerHTML = `
                   <a href="/history">History</a>
                   <a href="/nature">Nature</a>
                   <a href="https://photos.app.goo.gl/TS6vdoSJqanieQee7" target="_blank">Photos</a>
+                  <a href="/friends">Friends</a>
+                  <a href="/memorials">Memorials</a>
                 </div>
               </div>
             </div>
