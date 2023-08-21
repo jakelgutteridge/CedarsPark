@@ -22,7 +22,7 @@ const headerHTML = `
                 <div class="dropdown-content">
                   <a href="/history">History</a>
                   <a href="/nature">Nature</a>
-                  <a href="/gallery">Gallery</a>
+                  <a href="https://photos.app.goo.gl/TS6vdoSJqanieQee7" target="_blank">Photos</a>
                 </div>
               </div>
             </div>
