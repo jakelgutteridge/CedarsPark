@@ -26,6 +26,7 @@ const headerHTML = `
                   <a href="/photos">Photos</a>
                   <a href="/friends">Friends</a>
                   <a href="/memorials">Memorials</a>
+                  <a href="/contact">Contact</a>
                 </div>
               </div>
             </div>
