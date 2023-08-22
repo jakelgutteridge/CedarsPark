@@ -23,7 +23,7 @@ const headerHTML = `
                 <div class="dropdown-content">
                   <a href="/history">History</a>
                   <a href="/nature">Nature</a>
-                  <a href="/photos" target="_blank">Photos</a>
+                  <a href="/photos">Photos</a>
                   <a href="/friends">Friends</a>
                   <a href="/memorials">Memorials</a>
                 </div>
