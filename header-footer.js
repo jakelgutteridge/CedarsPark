@@ -11,7 +11,7 @@ const headerHTML = `
         <tr>
           <td>
             <a href="https://www.cedarspark.info" style="color: #FFFFFF;">
-              <img src="/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px; pointer-events: none;">
+              <img src="/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;">
             </a>
           </td>
           <td>
