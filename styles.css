@@ -32,6 +32,11 @@ h2 {
   padding: 10px 0px 10px 0px;
   color: #6aad0e;
 }
+
+ul {
+  margin-top: 35px;
+}
+
 li {
     margin-bottom: 14px;
   }
