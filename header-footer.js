@@ -37,6 +37,21 @@ const headerHTML = `
       </span>
     </center>
   </header>
+
+  <br>
+
+      <center>
+    <span style="line-height: 1.2;">
+      <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
+        <tr>
+          <td style="background-color: #6aad0e;">
+            <b>Public Notice:</b>
+          </td>
+        </tr>
+      </table>
+      </span>
+    </center>
+  </header>
 `;
 
 
