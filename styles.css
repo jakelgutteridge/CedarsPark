@@ -32,12 +32,10 @@ h2 {
   padding: 10px 0px 10px 0px;
   color: #6aad0e;
 }
-
 ul {
   margin-top: 35px;
   margin-bottom: 21px;
 }
-
 li {
     margin-bottom: 14px;
   }
@@ -118,7 +116,6 @@ footer {
   border-radius: 3px;
   padding: 5px;
 }
-
 .image-container-noborder {
   position: relative;
   display: inline-block; /* or use "block" if you want it to take the full width of its container */
@@ -127,7 +124,6 @@ footer {
   border-radius: 0px;
   padding: 0px;
 }
-
 img {
   display: block;
 }
@@ -167,25 +163,21 @@ hr {
   float: left;
   margin-right: 16px;
 }
-
 .image-table-gallery {
   float: left;
   margin: 5px;
 }
-
 .image-gallery {
   object-fit: cover;
   object-position: top;
   width: 160px; height: 160px;
 }
-
 .gallery {
   width: 100%;
   padding: 0px;
   border-spacing: 0px;
   border-collapse: separate;
 }
-
 /* Mobile styles */
 @media (max-width: 767px) {
   .image-table-right, .image-table-left {
@@ -230,9 +222,10 @@ hr {
   text-decoration: none;
   display: block;
 }
+.dropdown-content a:hover {text-decoration: none; color: #ffffff; background-image: linear-gradient(#6aad0e, #595959);}
 .dropdown-content a:hover {text-decoration: none; color: #ffffff; background-color: #6aad0e;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #e6e6e6;}
+.dropdown:hover .dropbtn {background-image: linear-gradient(#595959, #e6e6e6);}
 
 /* Apply styles to the 'table' table */
 table.table {
@@ -259,21 +252,6 @@ th {
     padding: 8px; /* Add some padding to the cells */
     text-align: left; /* Align text to the left in header cells */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 .video {
   position: relative;
@@ -305,11 +283,6 @@ blockquote span{
   font-weight: bold;
   margin-top: 1em;
 }
-
-
-
-
-
 .background-object {
   pointer-events: none;
   user-select: none;
