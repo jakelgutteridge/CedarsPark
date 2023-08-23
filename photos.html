@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/fancybox.css">
   </head>
 
   <body>
@@ -21,143 +21,65 @@
 
   <h1>Photos</h1>
 
-<center>
+  <center>
 
   <table border="0" class="gallery">
     <tr>
       <td>
 
-<!--
-  <table class="image-table-gallery">
-    <tr>
-      <td>
+  <a href="/flintarch.jpg" data-fancybox="gallery" data-caption="Flint arch (17th century)">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
           <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" height="120px" alt="Brick and flint arch folly">
-            </a>
+            <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
           </div>
-      </td>
-    </tr>
-  </table>
--->
+        </td>
+      </tr>
+    </table>
+  </a>
 
-  <table class="image-table-gallery">
-    <tr>
-      <td>
+  <a href="/james.jpg" data-fancybox="gallery" data-caption="This is King James I.">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
           <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
+            <img src="/james.jpg" class="image-gallery" alt="King James I">
           </div>
-      </td>
-    </tr>
-  </table>
+        </td>
+      </tr>
+    </table>
+  </a>
 
-  <table class="image-table-gallery">
-    <tr>
-      <td>
+  <a href="/elizabeth.jpg" data-fancybox="gallery" data-caption="This is Queen Elizabeth I.">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
           <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
+            <img src="/elizabeth.jpg" class="image-gallery" alt="Queen Elizabeth I">
           </div>
-      </td>
-    </tr>
-  </table>
+        </td>
+      </tr>
+    </table>
+  </a>
 
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
   </table>
 
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-  <table class="image-table-gallery">
-    <tr>
-      <td>
-          <div class="image-container">
-            <a href="/flintarch.jpg" target="_blank">
-              <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
-            </a>
-          </div>
-      </td>
-    </tr>
-  </table>
-
-      </table>
-
-</center>
-
+  </center>
+  
 </main>
 
     <div id="footer"></div>
 
     <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
   </body>
 
