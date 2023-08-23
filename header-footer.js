@@ -18,7 +18,7 @@ const headerHTML = `
             <div class="nav" style="float: right;">
               <div class="dropdown">
                 <div class="dropbtn">
-                  <img src="/menu.png" style="float: right;">
+                  <img src="/menu.png" onmouseover="this.src='/menu-dark.png';" onmouseout="this.src='/menu.png';" style="float: right;">
                 </div>
                 <div class="dropdown-content">
                   <a href="https://www.cedarspark.info">Home</a>
