@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Photos</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Photo gallery of Cedars Park, Cheshunt, Hertfordshire">
+    <meta name="author" content="Jake Gutteridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  </head>
+
+  <body>
+
+  <div id="header"></div>
+
+<main>
+
+  <h1>Photos</h1>
+
+  <center>
+
+  <table border="0" class="gallery">
+    <tr>
+      <td>
+
+  <a href="/flintarch.jpg" data-fancybox="gallery" data-caption="Flint arch (17th century)">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="/flintarch.jpg" class="image-gallery" alt="Brick and flint arch folly">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </a>
+
+  <a href="/james.jpg" data-fancybox="gallery" data-caption="This is King James I.">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="/james.jpg" class="image-gallery" alt="King James I">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </a>
+
+  <a href="/elizabeth.jpg" data-fancybox="gallery" data-caption="This is Queen Elizabeth I.">
+    <table class="image-table-gallery">
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="/elizabeth.jpg" class="image-gallery" alt="Queen Elizabeth I">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </a>
+
+  </table>
+
+  </center>
+  
+</main>
+
+    <div id="footer"></div>
+
+    <script src="/header-footer.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
+
+  </body>
+
+</html>
+
