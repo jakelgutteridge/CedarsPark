@@ -223,7 +223,6 @@ hr {
   left: -272%;
   transform-origin: bottom left; /* Set the origin for transform */
   transform: translate(0, 100%); /* Translate the content down */
-  border-radius: 0px 0px 3px 3px;
 }
 .dropdown-content a {
   color: #000000;
@@ -233,7 +232,7 @@ hr {
 }
 .dropdown-content a:hover {text-decoration: none; color: #ffffff; background-color: #6aad0e;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #6aad0e; border-radius: 3px 3px 3px 3px;}
+.dropdown:hover .dropbtn {background-color: #e6e6e6;}
 
 /* Apply styles to the 'table' table */
 table.table {
