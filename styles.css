@@ -222,7 +222,6 @@ hr {
   text-decoration: none;
   display: block;
 }
-.dropdown-content a:hover {text-decoration: none; color: #ffffff; background-image: linear-gradient(#6aad0e, #595959);}
 .dropdown-content a:hover {text-decoration: none; color: #ffffff; background-color: #6aad0e;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-image: linear-gradient(#595959, #e6e6e6);}
