@@ -11,14 +11,14 @@ const headerHTML = `
         <tr>
           <td>
             <a href="https://www.cedarspark.info" style="color: #FFFFFF;">
-              <img src="/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
+              <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             </a>
           </td>
           <td>
             <div class="nav" style="float: right;">
               <div class="dropdown">
                 <div class="dropbtn">
-                  <img src="/menu.png" style="float: right;">
+                  <img src="/images/menu.png" style="float: right;">
                 </div>
                 <div class="dropdown-content">
                   <a href="https://www.cedarspark.info">Home</a>
