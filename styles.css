@@ -3,7 +3,7 @@
   src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
 }
 @font-face {
-  font-family: "Optima Bold Italic";
+  font-family: OptimaBoldItalic;
   src: url(/fonts/Optima/OptimaLTPro-BoldItalic.otf);
 }
 /* Body styles */
