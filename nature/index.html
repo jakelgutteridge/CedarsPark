@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/fancybox.css">
   </head>
 
   <body>
@@ -20,17 +21,17 @@
 
   <h1>Nature</h1>
 
+<a href="/images/squirrel.jpg" data-fancybox>
   <table class="image-table-right">
     <tr>
       <td>
           <div class="image-container">
-            <a href="/squirrel.jpg" target="_blank">
               <img src="/squirrel.jpg" width="275px" alt="Squirrel at the bottom of a tree trunk">
-            </a>
           </div>
       </td>
     </tr>
   </table>
+</a>
 
   <p>Cedars Park is biodiverse with a strong mix of grassland, wildflower meadows and high-rise woodland that
     contributes to a very good environment for most native species that reside here. Broxbourne Borough Council considers
@@ -59,6 +60,14 @@
     <div id="footer"></div>
 
     <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
   </body>
 
