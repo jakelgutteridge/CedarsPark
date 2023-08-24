@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/fancybox.css">
   </head>
 
   <body>
@@ -49,10 +50,8 @@
     <p>After the tree died from storm damage, the American Waltham kindly donated a new one in August 1980, which later died.</p>
 
     <p>In recent years a new tree was planted, but unfortunately it was severely ring-barked in 2019 (likely by muntjacs)
-       and died in 2020, despite <a href="https://www.youtube.com/watch?v=d2wEexHX0u8" data-fancybox data-width="640" data-height="360">
-  HTML5 video
-</a>
-repair efforts</a>.</p>
+       and died in 2020, despite
+       <a href="https://www.youtube.com/watch?v=d2wEexHX0u8" data-fancybox data-width="640" data-height="360">repair efforts</a>.</p>
 
   <h2>Newspaper article</h2>
   
@@ -73,6 +72,14 @@ repair efforts</a>.</p>
     <div id="footer"></div>
 
     <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
   </body>
 
