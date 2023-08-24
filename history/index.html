@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/fancybox.css">
   </head>
 
   <body>
@@ -20,20 +21,22 @@
 
   <h1>History</h1>
 
-  <table class="image-table-right">
-    <tr>
-      <td>
+  <a href="/images/james.jpg" height="250px" data-fancybox data-caption="King James I">
+    <table class="image-table-right">
+      <tr>
+        <td>
           <div class="image-container">
-            <a href="/james.jpg">
-              <img src="/james.jpg" height="250px" alt="King James I">
-           </a>
+            <img src="/images/james.jpg" height="250px" alt="King James I">
             <div class="caption-container">
-              <div class="caption">King James I</div>
+              <div class="caption">
+                King James I
+              </div>
             </div>
           </div>
-      </td>
-    </tr>
-  </table>
+        </td>
+      </tr>
+    </table>
+  </a>
 
     <p>Cedars Park is the former site of Theobalds Palace, the favourite residence
        of King James I.</p>
@@ -83,6 +86,14 @@
     <div id="footer"></div>
 
     <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
 
   </body>
 
