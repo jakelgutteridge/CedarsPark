@@ -36,6 +36,10 @@ h2 {
   padding: 10px 0px 10px 0px;
   color: #6aad0e;
 }
+h3 {
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+}
 ul {
   margin-top: 35px;
   margin-bottom: 21px;
