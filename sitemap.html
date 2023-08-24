@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>Sitemap</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jake Gutteridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/fancybox.css">
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sitemap {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+    </style>
+  </head>
+
+  <body>
+
+  <div id="sitemap"></div>
+
+<main>
+
+  <h1>Welcome to Cedars Park</h1>
+
+  <a href="/images/flint-arch.jpg" data-fancybox>
+    <table class="image-table-right">
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="/images/flint-arch.jpg" height="275px" alt="Brick and flint arch folly">
+          </div>
+        </td>
+      </tr>
+    </table>
+  </a>
+
+</main>
+
+    <div id="footer"></div>
+
+    <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var sitemapContent = document.getElementById('sitemap-content');
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', 'sitemap.xml', true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var xmlDoc = xhr.responseXML;
+            var urls = xmlDoc.getElementsByTagName('url');
+
+            var table = document.createElement('table');
+            for (var i = 0; i < urls.length; i++) {
+                var loc = urls[i].getElementsByTagName('loc')[0].textContent;
+                var lastmod = urls[i].getElementsByTagName('lastmod')[0];
+                lastmod = lastmod ? lastmod.textContent : 'N/A';
+
+                var row = table.insertRow();
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                cell1.innerHTML = loc;
+                cell2.innerHTML = lastmod;
+            }
+
+            sitemapContent.appendChild(table);
+        }
+    };
+    xhr.send();
+});
+</script>
+
+  </body>
+
+</html>
