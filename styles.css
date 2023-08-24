@@ -2,6 +2,10 @@
   font-family: Optima;
   src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
 }
+@font-face {
+  font-family: "Optima Bold Italic";
+  src: url(/fonts/Optima/OptimaLTPro-BoldItalic.otf);
+}
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
