@@ -302,12 +302,9 @@ blockquote span{
 
 
 
-/* Regular screen styles */
-/* Define your regular screen styles here */
-
 /* Print styles */
 @media print {
-body :not(main) {
+header, footer {
   display: none;
 }
 
