@@ -302,14 +302,21 @@ blockquote span{
 
 
 
+/* Regular screen styles */
+/* Define your regular screen styles here */
+
 /* Print styles */
 @media print {
-  /* Hide everything except the <main> content */
   body * {
     display: none;
   }
-  
+
   main {
     display: block;
   }
+
+  main * {
+    display: block;
+  }
 }
+
