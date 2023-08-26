@@ -1,3 +1,11 @@
+/* Mobile styles */
+@media (max-width: 767px) {
+  .image-table-right, .image-table-left {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
 /* Example mobile-specific changes */
 header {
   padding: 10px;
