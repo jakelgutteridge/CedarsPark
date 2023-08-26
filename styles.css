@@ -192,13 +192,18 @@ hr {
   border-spacing: 0px;
   border-collapse: separate;
 }
-/* Mobile styles */
-@media (max-width: 767px) {
-  .image-table-right, .image-table-left {
-    float: none;
-    margin: 0 auto;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 .breadcrumb a {
     color: #ffffff;
