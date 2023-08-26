@@ -23,8 +23,6 @@ header {
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 5px;
-  position: -webkit-sticky;
-  position: sticky;
 }
 h1 {
     font-size: 23px;
