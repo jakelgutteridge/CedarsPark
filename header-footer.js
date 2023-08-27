@@ -10,7 +10,7 @@ const headerHTML = `
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
           <td>
-            <a href="https://www.cedarspark.info" style="color: #FFFFFF;">
+            <a href="/index" style="color: #FFFFFF;">
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             </a>
           </td>
@@ -21,7 +21,7 @@ const headerHTML = `
                   <img src="/images/menu.png" style="float: right;">
                 </div>
                 <div class="dropdown-content">
-                  <a href="https://www.cedarspark.info">Home</a>
+                  <a href="/index">Home</a>
                   <a href="/photos">Photos</a>
                   <a href="/nature">Nature</a>
                   <a href="/history">History</a>
