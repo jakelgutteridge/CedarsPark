@@ -51,7 +51,7 @@ const footerHTML = `
           </td>
           <td>
             <span style="float: right;">
-              <small>FOCP 2019&ndash;2023</small>
+              <small>2019&ndash;2023</small>
             </span>
           </td>
         </tr>
