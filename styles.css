@@ -1,3 +1,17 @@
+::-moz-selection { /* Code for Firefox */
+  color: #ffffff;
+  background: #6aad0e;
+}
+
+::selection {
+  color: #ffffff;
+  background: #6aad0e;
+}
+
+
+
+
+
 @font-face {
   font-family: "Optima Black";
   src: url(/fonts/Optima/OptimaLTPro-Black.otf);
