@@ -66,12 +66,12 @@
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
-  font-size: 18px;
+  font-size: 17.5px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #333;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 /* Header styles */
 header {
