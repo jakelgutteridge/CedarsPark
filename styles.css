@@ -1,11 +1,68 @@
 @font-face {
-  font-family: Optima;
-  src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
+  font-family: "Optima Black";
+  src: url(/fonts/Optima/OptimaLTPro-Black.otf);
 }
+
+@font-face {
+  font-family: "Optima Black Italic";
+  src: url(/fonts/Optima/OptimaLTPro-BlackItalic.otf);
+}
+
+@font-face {
+  font-family: "Optima Bold";
+  src: url(/fonts/Optima/OptimaLTPro-Bold.otf);
+}
+
 @font-face {
   font-family: "Optima Bold Italic";
   src: url(/fonts/Optima/OptimaLTPro-BoldItalic.otf);
 }
+
+@font-face {
+  font-family: "Optima Demi Bold";
+  src: url(/fonts/Optima/OptimaLTPro-DemiBold.otf);
+}
+
+@font-face {
+  font-family: "Optima Demi Bold Italic";
+  src: url(/fonts/Optima/OptimaLTPro-DemiBoldItalic.otf);
+}
+
+@font-face {
+  font-family: "Optima Extra Black";
+  src: url(/fonts/Optima/OptimaLTPro-ExtraBlack.otf);
+}
+
+@font-face {
+  font-family: "Optima Extra Black Italic";
+  src: url(/fonts/Optima/OptimaLTPro-ExtraBlackItalic.otf);
+}
+
+@font-face {
+  font-family: "Optima Italic";
+  src: url(/fonts/Optima/OptimaLTPro-Italic.otf);
+}
+
+@font-face {
+  font-family: "Optima Medium";
+  src: url(/fonts/Optima/OptimaLTPro-Medium.otf);
+}
+
+@font-face {
+  font-family: "Optima Medium Italic";
+  src: url(/fonts/Optima/OptimaLTPro-MediumItalic.otf);
+}
+
+@font-face {
+  font-family: Optima;
+  src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
+}
+
+
+
+
+
+
 /* Body styles */
 body {
   font-family: Arial, sans-serif;
