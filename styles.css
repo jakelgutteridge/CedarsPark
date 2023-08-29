@@ -19,12 +19,12 @@
 }
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -45,25 +45,25 @@ header {
 
 
 h1 {
-    font-size: 24px;
+    -size: 24px;
     padding: 8px 0px 12px 0px;
-    font-family: Optima;
-    font-weight: normal;
+    -family: Optima;
+    -weight: normal;
     text-transform: uppercase;
 }
 
 
 .subheading {
-  font-size: 18px;
+  -size: 18px;
   text-transform: none;
 }
 h2 {
-  font-size: 16px;
+  -size: 16px;
   padding: 10px 0px 10px 0px;
   color: #6aad0e;
 }
 h3 {
-  font-size: 14px;
+  -size: 14px;
   padding: 10px 0px 10px 0px;
 }
 
@@ -77,8 +77,8 @@ li {
   }
 .menu {margin-top: 35px;}
 .menu li {
-  font-size: 20px;
-  font-family: Optima;
+  -size: 20px;
+  -family: Optima;
   margin-bottom: 1em;
   }
 /* Main content styles */
@@ -108,8 +108,8 @@ a:visited {
   border-radius: 0px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 13px;
-  font-weight: bold;
+  -size: 13px;
+  -weight: bold;
 }
 .button-text {
     padding: 0px 8px;
@@ -231,7 +231,7 @@ hr {
     color: #ffffff;
 }
 .breadcrumb a.current {
-    font-weight: bold;
+    -weight: bold;
 }
 */
 .dropbtn {
@@ -248,8 +248,8 @@ hr {
   min-width: 90px;
   box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  font-size: 20px;
-  font-family: Optima;
+  -size: 20px;
+  -family: Optima;
   /* Adjusted positioning */
   bottom: -0%; /* Move the dropdown content up by its height */
   left: -275%;
@@ -304,7 +304,7 @@ th {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #ffffff;
-  font-size: 22px;
+  -size: 22px;
 }
 */
 blockquote{
