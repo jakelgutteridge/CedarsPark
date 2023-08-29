@@ -24,7 +24,6 @@
 
 
 body {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -32,6 +31,8 @@ body {
   color: #333;
   line-height: 1.5;
 }
+
+p {font-family: 'Roboto', sans-serif;}
 
 
 /* Header styles */
