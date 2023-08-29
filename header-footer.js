@@ -51,7 +51,7 @@ const footerHTML = `
           </td>
           <td>
             <span style="float: right;">
-              <small><a href="/contact">Contact</a></small>
+              <small><a href="/contact" style="color: #FFFFFF;">Contact</a></small>
             </span>
           </td>
         </tr>
