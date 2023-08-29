@@ -22,12 +22,12 @@ const headerHTML = `
                 </div>
                 <div class="dropdown-content">
                   <a href="/index">Home</a>
+                  <a href="/visit">Visit</a>
                   <a href="/photos">Photos</a>
                   <a href="/nature">Nature</a>
                   <a href="/history">History</a>
                   <a href="/friends">Friends</a>
                   <a href="/memorials">Memorials</a>
-                  <a href="/contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ const footerHTML = `
           </td>
           <td>
             <span style="float: right;">
-              <small>2019&ndash;2023</small>
+              <small><a href="/contact">Contact</a></small>
             </span>
           </td>
         </tr>
