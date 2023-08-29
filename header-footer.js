@@ -22,7 +22,6 @@ const headerHTML = `
                 </div>
                 <div class="dropdown-content">
                   <a href="/index">Home</a>
-                  <a href="/visit">Visit</a>
                   <a href="/photos">Photos</a>
                   <a href="/nature">Nature</a>
                   <a href="/history">History</a>
