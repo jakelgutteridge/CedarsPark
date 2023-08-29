@@ -27,6 +27,7 @@ const headerHTML = `
                   <a href="/history">History</a>
                   <a href="/friends">Friends</a>
                   <a href="/memorials">Memorials</a>
+                  <a href="/contact">Contact</a>
                 </div>
               </div>
             </div>
@@ -50,7 +51,7 @@ const footerHTML = `
           </td>
           <td>
             <span style="float: right;">
-              <small><a href="/contact" style="color: #FFFFFF;">Contact</a></small>
+              <small>FOCP 2019&ndash;2023</small>
             </span>
           </td>
         </tr>
