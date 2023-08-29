@@ -18,16 +18,22 @@
   src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
 }
 
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+</style>
+
+
+
 body {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #333;
   line-height: 1.5;
 }
-
 
 
 /* Header styles */
