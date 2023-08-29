@@ -5,8 +5,6 @@ const footerDiv = document.getElementById('footer');
 // Define the injected HTML content for header and footer
 const headerHTML = `
   <header>
-<img style="float: left; height: 240px;" src="/images/flint-arch.jpg">
-<img style="float: right; height: 240px;" src="/images/flint-arch.jpg">
     <center>
     <span style="line-height: 1.2;">
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
