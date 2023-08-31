@@ -25,6 +25,24 @@ const headerHTML = `
                   <a href="/photos">Photos</a>
                   <a href="/nature">Nature</a>
                   <a href="/history">History</a>
+
+
+
+
+                <div class="dropdown-content">
+                  <a href="/index">Home</a>
+                  <a href="/photos">Photos</a>
+                  <a href="/nature">Nature</a>
+                  <a href="/history">History</a>
+                  <a href="/friends">Friends</a>
+                  <a href="/events-and-activities">Events &<br>Activities</a>
+                  <a href="/memorials">Memorials</a>
+                  <a href="/contact">Contact</a>
+                </div>
+
+
+                
+              
                   <a href="/friends">Friends</a>
                   <a href="/events-and-activities">Events &<br>Activities</a>
                   <a href="/memorials">Memorials</a>
