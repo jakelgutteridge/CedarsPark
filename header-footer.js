@@ -22,12 +22,19 @@ const headerHTML = `
                 </div>
                 <div class="dropdown-content">
                   <a href="/index">Home</a>
+                  <hr>
                   <a href="/photos">Photos</a>
+                  <hr>
                   <a href="/nature">Nature</a>
+                  <hr>
                   <a href="/history">History</a>
+                  <hr>
                   <a href="/friends">Friends</a>
-                  <a href="/"><small>Events &<br>Activities</small></a>
+                  <hr>
+                  <a href="/">Events &<br>Activities</a>
+                  <hr>
                   <a href="/memorials">Memorials</a>
+                  <hr>
                   <a href="/contact">Contact</a>
                 </div>
               </div>
