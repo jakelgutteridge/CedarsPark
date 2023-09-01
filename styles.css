@@ -326,6 +326,10 @@ blockquote span{
 
 
 
+abbr {cursor: help;}
+
+
+
 
 /* Print styles */
 @media print {
