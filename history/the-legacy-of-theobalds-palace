@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <title>The Legacy of Theobalds Palace</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="author" content="Jake Gutteridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="/fancybox.css">
+  </head>
+
+  <body>
+
+  <div id="header"></div>
+
+<main>
+
+  <h1>The Legacy of Theobalds Palace</h1>
+
+  <p>The significance of Theobalds Palace (now Cedars Park) is reflected in the surrounding area today.
+  Here are some potential local linkages:</p>
+  <ul>
+    <li>
+      <b>Theobalds Lane</b> &ndash; Site of the main buildings.
+    </li>
+    <li>
+      <b>Theobalds Brook</b> &ndash; A minor tributary of the River Lea that passes through the former palace grounds.
+    </li>
+    <li>
+      <b>Hedworth Avenue</b> and <b>Lambton Avenue</b> &ndash; Named after
+      Admiral of the Fleet Sir Hedworth Meux (né Lambton), who donated Cedars Park to the people of Cheshunt in 1919.
+    </li>
+    <li>
+      <b>Winston Churchill Way</b> &ndash; Located immediately south of Cedars Park, this section of dual carriageway
+      is named after the late Prime Minister. Lady Meux is known to have entertained him in the upper chamber of Temple Bar, when it was located here.
+    </li>
+    <li>
+      <b>The King and Tinker</b> &ndash; Located on Whitewebbs Lane in Enfield, this historic pub dates
+      back to the 16th century and is located on King James I's original hunting grounds. Their business card tells the story of the Ballad of the King and the Tinker:
+      <blockquote>
+        Whilst hunting in the area and separated from his courtiers the king takes refuge in an alehouse
+        where he enjoys a drink with a tinker. The tinker has no idea who he is drinking with until the
+        courtiers catch up with the king and the tinker realises who his drinking companion really is, King James the 1st.
+        <p>It is said that the King knighted the tinker and that this is the pub where their meeting took place.
+      </blockquote>
+    </li>
+  </ul>
+
+heritage value
+
+King and Tinker Pub
+
+</main>
+
+    <div id="footer"></div>
+
+    <script src="/header-footer.js"></script>
+
+    <script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
+</script>
+
+  </body>
+
+</html>
