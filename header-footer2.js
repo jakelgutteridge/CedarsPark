@@ -18,7 +18,7 @@ const headerHTML = `
 <div id="omega">
   <div id="omega-content">
     <nav>
-      <ul>
+      <ul style="color: #ffffff;">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
