@@ -44,7 +44,7 @@
     transition: transform .2s ease-in-out;
 }
 #omega-sidebar-header{
-    background-image: url(/images/friends-sign.jpg);
+    background: #6aad0e url("/images/logo.png"); padding: 16px;
     background-size: cover;
     height:180px;
 }
