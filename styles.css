@@ -18,10 +18,8 @@
   src: url(/fonts/Optima/OptimaLTPro-Roman.otf);
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -45,7 +43,7 @@ header {
 h1 {
     font-size: 24px;
     padding: 8px 0px 12px 0px;
-    font-family: 'Roboto Light';
+    font-family: Optima;
     font-weight: normal;
 }
 
@@ -246,7 +244,7 @@ hr {
   box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 20px;
-  font-family: 'Roboto Light';
+  font-family: Optima;
   /* Adjusted positioning */
   bottom: -0%; /* Move the dropdown content up by its height */
   left: -275%;
