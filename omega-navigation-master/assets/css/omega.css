@@ -44,7 +44,7 @@
     transition: transform .2s ease-in-out;
 }
 #omega-sidebar-header{
-    background: #6aad0e url("/images/logo.png"); padding: 16px;
+    background: #6aad0e url("/images/logo.png"); margin: 16px;
     background-size: cover;
     height:180px;
 }
