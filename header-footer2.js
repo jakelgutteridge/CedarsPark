@@ -19,7 +19,7 @@ const headerHTML = `
   <div id="omega-content">
     <nav>
       <ul style="color: #ffffff;">
-        <li><a href="#">Home</a></li>
+        <li style="color: #ffffff;"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
