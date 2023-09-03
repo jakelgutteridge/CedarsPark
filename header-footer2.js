@@ -20,15 +20,21 @@ const headerHTML = `
     <nav>
       <ul style="color: #ffffff;">
         <li style="color: #ffffff;"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="/index">Home</a></li>
+        <li><a href="/photos">Blog</a></li>
+        <li><a href="/nature">Nature</a></li>
+        <li><a href="/history">History</a></li>
+        <li><a href="/friends">Friends</a></li>
+        <li><a href="/memorials">Memorials</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
     </nav>
+<!--
     <div class="omega-links">
       <a href="#" class="button">Link 1</a>
       <a href="#" class="button button-outline ">Link 2</a>
     </div>
+-->
   </div>
   <button id="omega-button">&#9776;</button>
   <div id="omega-sidebar">
