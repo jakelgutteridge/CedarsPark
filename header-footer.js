@@ -9,29 +9,18 @@ const headerHTML = `
     <span style="line-height: 1.2;">
       <table cellpadding="0px" cellspacing="0px" style="width: 100%; max-width: 950px;">
         <tr>
-          <td>
+          <td width="32">
+            <img src="/images/menu.png" style="float: right;">
+          </td>
+          <td width="886">
+          <center>
             <a href="/index" style="color: #FFFFFF;">
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             </a>
+          </center>
           </td>
-          <td>
-            <div class="nav" style="float: right;">
-              <div class="dropdown">
-                <div class="dropbtn">
-                  <img src="/images/menu.png" style="float: right;">
-                </div>
-                <div class="dropdown-content">
-                  <a href="/index">Home</a>
-                  <a href="/photos">Photos</a>
-                  <a href="/nature">Nature</a>
-                  <a href="/history">History</a>
-                  <a href="/friends">Friends</a>
-<!--                  <a href="/calendar">Calendar</a> -->
-                  <a href="/memorials">Memorials</a>
-                  <a href="/contact">Contact</a>
-                </div>
-              </div>
-            </div>
+          <td width="32">
+          &nbsp;
           </td>
         </tr>
       </table>
