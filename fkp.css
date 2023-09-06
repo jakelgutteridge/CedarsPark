@@ -1,0 +1,68 @@
+/* Reset styles - keep your existing reset code here */
+
+/* Global Formatting - keep your existing global formatting styles here */
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Adjust the font size for readability */
+    }
+
+    /* Add your responsive styles here */
+
+    /* Example: Adjust font sizes and spacing for mobile */
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    #content-wrapper {
+        padding: 20px;
+    }
+
+    #logo {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #main-image-background {
+        width: 100%;
+        margin: 0;
+        background-size: cover;
+    }
+
+    #nav {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #nav ul {
+        padding: 0;
+    }
+
+    #nav ul li {
+        border-bottom: 1px dashed #77787b;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    #main-content {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #footer {
+        padding: 20px 0;
+    }
+
+    #footer-contact, #footer-contacts {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #footer-contacts {
+        border-left: none;
+    }
+}
