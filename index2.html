@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Friends of Cedars Park</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="We help to maintain and improve Cedars Park, a historic and attractive public park in Cheshunt, Hertfordshire.">
+    <meta name="author" content="Jake Gutteridge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/fancybox.css">
+    <style>
+        /* Your existing styles */
+
+        /* Added styles for responsive layout */
+        @media (min-width: 601px) {
+            body {
+                display: flex;
+            }
+
+            .menu {
+                flex: 0 0 250px; /* Fixed width for the menu on desktop */
+                background-color: #f2f2f2;
+                border-right: 1px solid #ccc;
+                padding: 20px;
+            }
+
+            main {
+                flex: 1; /* Takes up remaining space on desktop */
+                padding: 20px;
+                max-width: 700px; /* Adjust the maximum content width */
+                margin: auto;
+            }
+
+            .hamburger-menu {
+                display: none; /* Hide the hamburger menu on desktop */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .menu {
+                display: none; /* Hide the menu on mobile */
+            }
+
+            .hamburger-menu {
+                display: block; /* Display the hamburger menu on mobile */
+                background-color: #f2f2f2;
+                padding: 10px;
+            }
+
+            .hamburger-menu a {
+                display: block;
+                margin-bottom: 10px;
+                text-decoration: none;
+            }
+
+            .hamburger-menu a:hover {
+                text-decoration: underline;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="header"></div>
+
+<!-- Hamburger menu for mobile -->
+<div class="hamburger-menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Photos</a>
+</div>
+
+<main>
+    <!-- Your content here -->
+</main>
+
+<div id="footer"></div>
+
+<script src="/header-footer.js"></script>
+<script src="/fancybox.js"></script>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+    });
+</script>
+
+</body>
+</html>
