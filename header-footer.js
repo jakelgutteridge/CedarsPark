@@ -36,6 +36,13 @@ const headerHTML = `
         </tr>
       </table>
       </span>
+      <BIG>
+      <BIG>
+      <B>
+      <MARK>FOCP DRAFT SITE - NOT FOR PUBLICATION</MARK>
+      </B>
+      </BIG>
+      </BIG>
     </center>
   </header>
 `;
