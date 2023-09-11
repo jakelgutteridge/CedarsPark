@@ -257,6 +257,7 @@ td.date {
     padding: 8px; /* Add some padding to the cells */
     text-align: center; /* Center-align text in 'date' cells */
     width: 125px;
+    color: #6aad0e;
 }
 /* Apply styles to 'event' cells */
 td.event {
