@@ -38,9 +38,7 @@ const headerHTML = `
       </span>
       <BIG>
       <BIG>
-      <B>
-      <MARK>Website Draft</MARK>
-      </B>
+      <SPAN style="text-transform: uppercase;"><MARK>Website Draft</MARK></SPAN>
       </BIG>
       </BIG>
     </center>
