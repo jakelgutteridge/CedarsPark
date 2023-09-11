@@ -39,7 +39,7 @@ const headerHTML = `
       <BIG>
       <BIG>
       <B>
-      <MARK>FOCP DRAFT SITE - NOT FOR PUBLICATION</MARK>
+      <MARK>Website Draft</MARK>
       </B>
       </BIG>
       </BIG>
