@@ -253,7 +253,7 @@ td.date {
     border: 1px solid #ccc; /* Set the border to 1px solid grey */
     padding: 8px; /* Add some padding to the cells */
     text-align: center; /* Center-align text in 'date' cells */
-    width: 125px;
+    width: 150px;
     color: #6aad0e;
 }
 /* Apply styles to 'event' cells */
