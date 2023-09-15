@@ -1,7 +1,7 @@
 // Get references to the header and footer divs
 const headerDiv = document.getElementById('header');
 
-// Define the injected HTML content for header
+// Define the injected HTML content for the gallery header
 const headerHTML = `
 <center>
   <table cellpadding="0" cellspacing="0">
@@ -38,5 +38,5 @@ const headerHTML = `
 </center>
 `;
 
-// Inject the HTML content into the header and footer divs
+// Inject the HTML content into the gallery header div
 headerDiv.innerHTML = headerHTML;
