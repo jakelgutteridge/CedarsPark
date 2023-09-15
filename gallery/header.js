@@ -4,7 +4,7 @@ const headerDiv = document.getElementById('header');
 // Define the injected HTML content for the gallery header
 const headerHTML = `
 <center>
-  <table cellpadding="0" cellspacing="0" style="margin-top: 8px;">
+  <table cellpadding="0" cellspacing="0" style="margin-top: 24px;">
     <tr>
       <td>
 
@@ -19,7 +19,7 @@ const headerHTML = `
         <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px; font-weight: bold;">
           <tr>
             <td>
-              <a href="#">Historic Photos</a>
+              <a href="#" style="color: #000000;">Historic Photos</a>
             </td>
           </tr>
         </table>
@@ -27,7 +27,7 @@ const headerHTML = `
         <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px; font-weight: bold;">
           <tr>
             <td>
-              <a href="#">Art Work</a>
+              <a href="#" style="color: #000000;">Art Work</a>
             </td>
           </tr>
         </table>
