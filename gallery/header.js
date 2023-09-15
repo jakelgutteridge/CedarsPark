@@ -16,7 +16,7 @@ const headerHTML = `
           </tr>
         </table>
 
-        <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px; font-weight: bold;">
+        <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px;">
           <tr>
             <td>
               <a href="#" style="color: #000000;">Historic Photos</a>
@@ -24,7 +24,7 @@ const headerHTML = `
           </tr>
         </table>
 
-        <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px; font-weight: bold;">
+        <table cellspacing="4" style="float: left; margin-right: 8px; margin-left: 8px;">
           <tr>
             <td>
               <a href="#" style="color: #000000;">Art Work</a>
