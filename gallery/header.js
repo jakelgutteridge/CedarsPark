@@ -1,6 +1,5 @@
 // Get references to the header and footer divs
 const headerDiv = document.getElementById('header');
-const footerDiv = document.getElementById('footer');
 
 // Define the injected HTML content for header
 const headerHTML = `
