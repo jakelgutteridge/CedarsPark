@@ -36,11 +36,6 @@ const headerHTML = `
         </tr>
       </table>
       </span>
-      <BIG>
-      <BIG>
-      <SPAN style="text-transform: uppercase;"><MARK>Website Draft</MARK></SPAN>
-      </BIG>
-      </BIG>
     </center>
   </header>
 `;
