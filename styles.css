@@ -87,7 +87,6 @@ main {
 /* Links styles */
 a {
   color: #1e60c9;
-  text-decoration: none;
 }
 a:hover, a:focus {
   text-decoration: underline;
