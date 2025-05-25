@@ -88,8 +88,7 @@ main {
 a {
   color: #1e60c9;
   text-decoration: none;
-  a {
-  font-weight: bold;}
+  font-weight: bold;
 }
 a:hover, a:focus {
   text-decoration: underline;
